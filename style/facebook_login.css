@@ -1,0 +1,184 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(206, 224, 235);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 100px; 
+}
+form{
+
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.form_container{
+    background-color: rgb(255, 255, 255);
+    max-width: 432px;
+    height: 580px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 10px , silver;
+}
+div.head{
+    text-align: center;
+    font-size: 13px;
+    line-height: 10px;
+    padding-top :10px;
+    border-bottom:1px solid silver;
+}
+div.head p{
+    color: gray;
+    font-size: 15px;
+    
+}
+.form_input{
+    padding : 15px 20px 10px 20px;
+}
+div.name{
+   display: flex;
+   justify-content: space-between;
+    
+}
+div.name input {
+    
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 49%;
+    height: 40px;
+    border: 1px solid silver;
+    
+}
+.form_email_number input , .form_pass input{
+    width: 100%;
+    height: 36px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+}
+.Date_of_birth>label{
+    color: rgb(66, 66, 66);
+    font-size: 14px;
+    
+    
+}
+.Date_of_birth{
+    padding-bottom: 12px;
+}
+.select_button{
+    display: flex;
+    justify-content: space-between;
+}
+.select_button select{
+    width:128px ;
+    height: 36px;
+    font-size: 15px;
+    border-radius: 5px;
+    border:1px solid silver;
+    box-sizing: border-box;
+
+}
+.gender_button label{
+    color:rgb(66, 66, 66) ;
+    font-size: 14px;
+    
+}
+.gender_button{
+    padding: 10px 0px;
+}
+.gender{
+    display:flex;
+   
+}
+.gender-option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gender div{
+    border: 1px solid silver;
+    border-radius: 4px;
+    height: 36px;
+    width: 128px;
+    margin: 2px;
+    
+}
+
+.gender div label{
+    font-size: 15px;
+    padding-left: 5px; 
+}  
+
+.description p{
+    font-size: 11px;
+    color: gray;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn button{
+    width: 194px;
+    height: 36px;
+    background-color: #00a400;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    margin: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.btn button:hover{
+    opacity: 0.8;
+}
+.footer_link{
+    text-align: center;
+    padding: 10px;
+    font-size:14px;
+    
+   
+}
+ a{
+    text-decoration: none;
+    color:rgb(8, 102, 255);
+    
+}
+.footer_container{
+    background-color: white;
+    height: 140px;
+    margin-top:30px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 110px;
+    
+      
+}
+.footer_container a{
+    font-size: 12px;
+    padding : 15px;
+    color:rgb(59, 76, 104)
+    
+}
+
+
+
+
